@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">StoryApp</string>
+    <string name="login">Login</string>
+    <string name="register_menu">Don\'t have account? Register</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="title">Title</string>
+    <string name="lorem_ipsum_30" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare et ex ut tincidunt. Nulla sed nisi a lectus bibendum vulputate ut in urna. Praesent ut consequat est. Nulla egestas.</string>
+    <string name="login_menu">Already have an account? Login</string>
+    <string name="gallery">Gallery</string>
+    <string name="capture">Capture</string>
+    <string name="upload">Upload</string>
+    <string name="input_description">Enter your story description</string>
+    <string name="logout">Logout</string>
+    <string name="invalid_email">Invalid email format</string>
+    <string name="invalid_password">Number of passwords less than 6 characters</string>
+    <string name="enter_image">Please enter the image file first</string>
+    <string name="enter_description">Please enter a description first</string>
+    <string name="choose_picture">Choose a Picture</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="press_back">Press back again to exit</string>
+    <string name="failed_camera">Failed to bring up camera</string>
+    <string name="failed_take">Failed to take pictures</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="language_setting">language_setting</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">retry</string>
+    <string name="preview_image">preview image</string>
+
+</resources>

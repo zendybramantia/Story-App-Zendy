@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    app:layoutDescription="@xml/activity_splash_screen_scene"
+    tools:context=".ui.splashScreen.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/splashComponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splash_component"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/splashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="48dp"
+        android:src="@drawable/splash_text"
+        app:layout_constraintBottom_toBottomOf="@id/splashComponent"
+        app:layout_constraintEnd_toEndOf="@id/splashComponent"
+        app:layout_constraintStart_toStartOf="@id/splashComponent"
+        app:layout_constraintTop_toTopOf="@id/splashComponent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
